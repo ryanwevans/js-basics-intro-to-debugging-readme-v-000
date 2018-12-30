@@ -45,7 +45,7 @@ example, she'd want to know:
 1.  Did the person who places order get my Mac N' Cheese order?
 2.  Did the person who receives orders get my Mac N' Cheese order?
 3.  Was my Mac N' Cheese order on the receipt? If not, problem happened _before_
-    this point (investigate steps 1 and 2). If not, problem happened after.
+    this point (investigate steps 1 and 2). If so, problem happened after.
 4.  (Judging by the fact that there are lunches on the table, clearly the order
     got here, was paid for, and was put on the table. No debugging needed)
 5.  Who opened up the box of lunch orders?
@@ -87,7 +87,7 @@ Importantly, you can log not only simple things like `String`s or `Number`s but
 you can log objects and use disclosure triangles to "expand out" the contained
 values.
 
-> **TYPORGRAPHICAL NOTE**: When we use `console.log()` in code snippets, we'll
+> **TYPOGRAPHICAL NOTE**: When we use `console.log()` in code snippets, we'll
 > preface the output statements with `LOG:`, such as in the above example. This
 > is to differentiate messages logged out to the console from values `return`ed
 > by an expression, which are represented with `=>`, e.g.:
@@ -122,7 +122,7 @@ console.log(multiplyByTwo(addTwoNumbers(1, 3))); //=> undefined(?!)
 ```
 
 - Is what we passed in what the function got?
-- Is the thing the function did what we expected it to do?
+- Did the function do what we expected it to do?
 - Does the operator work like we thought it did?
 
 Try to debug this code using `console.log()`.
